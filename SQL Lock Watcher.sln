@@ -1,0 +1,26 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SQL Contention Monitor", "SQL Contention Monitor.vbproj", "{FD5409C0-92D3-4A4A-8981-AF470D970482}"
+EndProject
+Global
+	GlobalSection(VaultVsipSolution-v1) = preSolution
+		VaultHost = https://source.visualmonkey.net/VaultService
+		VaultRepositoryID = 1
+		VaultRepositoryGUID = 52c0c3ce-3561-4c0f-af9a-b39d550d3b84
+		ProjectCount = 1
+		ProjectRelativeDiskPath1 = SQL Contention Monitor.vbproj
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD5409C0-92D3-4A4A-8981-AF470D970482}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD5409C0-92D3-4A4A-8981-AF470D970482}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD5409C0-92D3-4A4A-8981-AF470D970482}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD5409C0-92D3-4A4A-8981-AF470D970482}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,45 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="ServerList" Description="semi-colon-separated list of servers to monitor" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="RefreshFrequency" Description="Frequency of refreshing connections and getting status, in seconds" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+    <Setting Name="NotifyOnBlock" Description="Notify user when a block occurs" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="NotifyOnClear" Description="Notify user when a block is cleared" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="MinimumLockAge" Description="Minimum lock age, in seconds, after which to notify users. Prevents notification of momentary blocks." Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="RespectMinimumLockAge" Description="Whether MinimumLockAge settings will be respected" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="UserNotifiedAboutTray" Description="True if user has been told that application minimizes to tray" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NotifyOnLockAging" Description="Notify the user if locks reach a certain age?" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="NotifyOnLockAging_Age" Description="Age of lock, in seconds, after which to notify user" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">15</Value>
+    </Setting>
+    <Setting Name="NotifyOnLockAgingReoccuring" Description="Continue to notify user as lock ages?" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="NotifyOnLockAgainReoccuringAge" Description="Delay, in seconds, between each subsequent recurring lock age notification" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">30</Value>
+    </Setting>
+    <Setting Name="MaximumQueueDepth" Description="Maximum number of messages in tray notification queue at once. At capacity, oldest message is discarded." Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="LockHistoryDepth" Description="Number of lock history events to keep loaded" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1000</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
